@@ -5,6 +5,7 @@
 #+DATE: [2020年 10月 04日 星期六 16:37:21 HKT]
 #+LANGUAGE:  zh-CN
 #+OPTIONS:  H:6 num:nil toc:t \n:nil ::t |:t ^:nil -:nil f:t *:t <:nil
+
 在最开始的几年，我使用过 WordPress 写博客，但我真的想完全使用 [[https://www.gnu.org/software/emacs/][GNU Emacs]] 来发布博客。我尝试过 [[https://github.com/org2blog/org2blog][Org2Blog]]， 但有些东西仍然不能使用，并且这种方式感觉不满意。我尝试过创建一个网站来发布 Emacs 配置，最先使用 [[https://www.djangoproject.com/][Django]]，之后改为 [[https://jekyllrb.com/][Jekyll]]，这个网站叫做 [[https://github.com/psachin/haqiba][Haqiba]] （我知道，一个不常见的名字）。 Jekyll 很酷，提供了更多的对内容和发布的控制，但是我仍然不能直接在 Emacs 中写博客，并且 [[https://orgmode.org/][Org mode]] 仍然不能用。尽管我尝试过使用 [[https://github.com/eggcaker/jekyll-org][Jekyll-org]] 来使 Jekyll 支持 Org mode，这个框架看起来怪异。
 
 当我开始使用 [[https://orgmode.org/manual/Publishing.html][org-publish]]，我终于找到了我一直在寻找的解决方法。在我调研的早期，我曾在 org-publish 蹒跚起步，但最初我认为用它写博客太复杂。但是我再次尝试了它并从此开始了愉快的经历。
